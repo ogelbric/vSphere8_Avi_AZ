@@ -1878,6 +1878,7 @@ My-Logger "StartTime: $StartTime"
 My-Logger "  EndTime: $EndTime"
 My-Logger " Duration: $duration minutes"
 ```
+Script kick off: 
 
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/kickoff1.png)
 
