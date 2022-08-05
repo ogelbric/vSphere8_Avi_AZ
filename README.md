@@ -36,7 +36,7 @@ Here is the script modified for 3 vCenter clusters and 9 ESXi hosts
 # vCenter Server used to deploy Project Pacific Lab
 $VIServer = "10.197.96.1"
 $VIUsername = "administrator@vsphere.local"
-$VIPassword = "VMware1!"
+$VIPassword = "blabla"
 
 # Full Path to both the Nested ESXi 7.0 VA, Extracted VCSA 7.0 ISO & NSX-T OVAs
 $NestedESXiApplianceOVA = "C:\Users\Administrator\Downloads\TKGS7u3_bits\Nested_ESXi7.0u3_Appliance_Template_v1.ova"
@@ -1879,6 +1879,7 @@ My-Logger "  EndTime: $EndTime"
 My-Logger " Duration: $duration minutes"
 ```
 
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/kickoff1.png)
 
 
 
