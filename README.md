@@ -41,3 +41,16 @@ Result:
 
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/vCenterOutcome1.png)
 
+### Service Installer (Arcas) deployment
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/arcas1.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/arcas2.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/arcas3.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/arcas4.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/arcas5.png)
+
+
