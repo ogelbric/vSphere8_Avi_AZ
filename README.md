@@ -35,6 +35,9 @@ Here is the script modified for 3 vCenter clusters and 9 ESXi hosts
 Script kick off: 
 
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/kickoff1.png)
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/Kickoff2.png)
 
+Result:
 
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/vCenterOutcome1.png)
 
