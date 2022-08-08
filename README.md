@@ -122,6 +122,34 @@ arcas --env vsphere --file  /opt/vmware/arcas/src/vsphere-dvs-tkgs-wcp.json --av
 
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/arrp1.png)
 
+### Update the version 
+```
+Before:
+grep "20.1.7" /opt/vmware/arcas/src/common/operation/constants.py
+    AVI_VERSION_UPDATE_THREE = "20.1.7"
+    AVI_VERSION_UPDATE_TWO = "20.1.7"
+
+vi /opt/vmware/arcas/src/common/operation/constants.py
+
+After:
+grep "21.1.1" /opt/vmware/arcas/src/common/operation/constants.py
+    VSPHERE_AVI_VERSION = "21.1.1"
+    VMC_AVI_VERSION = "21.1.1"
+    AVI_VERSION_UPDATE_THREE = "21.1.1"
+    AVI_VERSION_UPDATE_TWO = "21.1.1"
+
+arcas --env vsphere --file  /opt/vmware/arcas/src/vsphere-dvs-tkgs-wcp.json --cleanup
+
+systemctl restart arcas
+
+ arcas --env vsphere --file  /opt/vmware/arcas/src/vsphere-dvs-tkgs-wcp.json --avi_configuration
+```
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/arrp2.png)
+
+FYI - this will still result in an API error, but AVI is deployed and now needs to be set up (if Arcas would support 21.x.x then this would not be an issue) 
+
+
 
 
 
