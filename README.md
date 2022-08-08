@@ -54,3 +54,15 @@ Result:
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/arcas5.png)
 
 
+
+
+
+
+
+
+
+Save ARCAS json installer file to VM
+```
+ /opt/vmware/arcas/src/vsphere-dvs-tkgs-wcp.json.
+ ```
+ 
