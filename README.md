@@ -233,6 +233,10 @@ Cert for WCP enablement
 
 ## WCP enablement with zones
 
+Set up Zones
+Make sure storage policy has zonal
+WCP enablement 
+
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/wcp1.png)
 
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/wcp2.png)
