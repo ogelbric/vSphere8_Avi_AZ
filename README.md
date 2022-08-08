@@ -195,6 +195,19 @@ Note default cloud is green by default - not connected to anything and AKO pod i
 
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/avi19.png)
 
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/avi20.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/avi21.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/avi22.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/avi23.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/avi24.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/avi25.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/avi26.png)
 
 
 
