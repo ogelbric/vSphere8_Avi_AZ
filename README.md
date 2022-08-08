@@ -283,5 +283,16 @@ WCP enablement
 
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/wcp23.png)
 
+## WCP log in to API end point
+
+```
+/usr/local/bin/kubectl-vsphere login --vsphere-username administrator@vsphere.local --server=https://192.168.4.71 --insecure-skip-tls-verify
+```
+
+Problem can't log in... 
+Trouble shooting starts...
+Can I ping 192.168.4.71 -> no  hmmm is AVI green? Do I have SE's?  Lets check! 
+
+
 
 
