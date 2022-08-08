@@ -138,10 +138,12 @@ systemctl restart arcas
 
 arcas --env vsphere --file  /opt/vmware/arcas/src/vsphere-dvs-tkgs-wcp.json --avi_configuration
 ```
-
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/arrp2.png)
 
 FYI - this will still result in an API error, but AVI is deployed and now needs to be set up (if Arcas would support 21.x.x then this would not be an issue) 
+
+Example of Arcas 1.3 json file: https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/vsphere-dvs-tkgs-wcp.json
+
 
 ## AVI setup
 
