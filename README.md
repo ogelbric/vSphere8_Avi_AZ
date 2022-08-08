@@ -118,7 +118,7 @@ arcas --env vsphere --file  /opt/vmware/arcas/src/vsphere-dvs-tkgs-wcp.json --av
 ```
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/arr1.png)
 
-### small problem.... 
+### Small problem.... 
 
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/arrp1.png)
 
