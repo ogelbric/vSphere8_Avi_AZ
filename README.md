@@ -25,7 +25,7 @@ Workload cluster
   Done by hand 
 ```
 
-### The Nested deploy via William Lams Power Shell Script
+## The Nested deploy via William Lams Power Shell Script
 
 Here is the script modified for 3 vCenter clusters and 9 ESXi hosts
 
@@ -55,7 +55,7 @@ Result:
 
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/cl2.png)
 
-### Service Installer (Arcas) deployment
+## Service Installer (Arcas) deployment
 
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/arcas1.png)
 
@@ -100,12 +100,6 @@ Result:
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/ar15.png)
 
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/ar16.png)
-
-
-
-
-
-
 
 ### Save ARCAS json installer file to the Arcas VM
 ```
