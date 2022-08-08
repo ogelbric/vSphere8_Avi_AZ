@@ -149,11 +149,19 @@ arcas --env vsphere --file  /opt/vmware/arcas/src/vsphere-dvs-tkgs-wcp.json --av
 
 FYI - this will still result in an API error, but AVI is deployed and now needs to be set up (if Arcas would support 21.x.x then this would not be an issue) 
 
-### AVI setup
+## AVI setup
 
 One way to tell that Arcas was unable to talk to the API is that the admin password is not set on the AVI appliance. 
 
+### Set AVI password
 
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/avi1.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/avi2.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/avi3.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/avi4.png)
 
 
 
