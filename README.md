@@ -300,6 +300,9 @@ Sup VM's (3) have the correct number of IPs assigned 4,4,5
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/ok2.png)
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/ok3.png)
 
+Lets check AVI for red stuff
+
+
 
 
 
