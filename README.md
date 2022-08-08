@@ -294,7 +294,7 @@ Trouble shooting starts...
 Can I ping 192.168.4.71 -> no  hmmm is AVI green? Do I have SE's?  Lets check! 
 
 No Se's found in vCenter - that is a problem! (There should be 2) 
-Sup VM's (3) have the correct number of IPs assigned 5,4,4
+Sup VM's (3) have the correct number of IPs assigned 4,4,5
 
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/ok1.png)
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/ok2.png)
