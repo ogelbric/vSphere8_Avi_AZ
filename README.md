@@ -41,6 +41,24 @@ Result:
 
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/vCenterOutcome1.png)
 
+### Make sure datastores are tagged
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/tag1.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/tag2.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/tag2.png)
+
+### Make sure content library is creatged with AVI image
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/cl1.png)
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/cl2.png)
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/cl3.png)
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/cl4.png)
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/cl5.png)
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/cl6.png)
+
+
 ### Service Installer (Arcas) deployment
 
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/arcas1.png)
