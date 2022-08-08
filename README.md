@@ -310,7 +310,7 @@ Looks like the service engins are not selecting a vCenter cluster
 Found strange lincens errors in AVI
 
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/AVILic1.png)
-![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/AVILIC2.png)
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/AVILic2.png)
 
 Lets ssh to vCenter and then to supervisor cluster and check on AKO pod
 
