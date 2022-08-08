@@ -116,6 +116,7 @@ Result:
 ```
 arcas --env vsphere --file  /opt/vmware/arcas/src/vsphere-dvs-tkgs-wcp.json --avi_configuration
 ```
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/arr1.png)
 
 
 
