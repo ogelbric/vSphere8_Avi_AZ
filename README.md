@@ -294,16 +294,43 @@ Trouble shooting starts...
 Can I ping 192.168.4.71 -> no  hmmm is AVI green? Do I have SE's?  Lets check! 
 
 No Se's found in vCenter - that is a problem! (There should be 2) 
-Sup VM's (3) have the correct number of IPs assigned 4,4,5
+Sup VM's (3) have the correct number of IPs assigned 4,4,5 so that is right.
 
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/ok1.png)
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/ok2.png)
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/ok3.png)
 
-Lets check AVI for red stuff
+## Lets check AVI for red stuff
 
+Looks like the service engins are not selecting a vCenter cluster
 
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/AVISEG1.png)
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/AVISEG2.png)
 
+Found strange lincens errors in AVI
 
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/AVILic1.png)
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/AVILIC2.png)
+
+Lets ssh to vCenter and then to supervisor cluster and check on AKO pod
+
+```
+ssh root@192.168.1.50
+shell
+/usr/lib/vmware-wcp/decryptK8Pwd.py
+
+Cluster: domain-c8:054497f1-f9a5-4e84-87e2-173a09498aad
+IP: 192.168.1.80
+PWD: [N~Xt15,5]DK|V9h
+------------------------------------------------------------
+
+ssh root@192.168.1.80
+
+k get pods -A                  # everthing is running good.... 
+k get pods -A | grep -i AKO    # the AKO pod
+k logs -n vmware-system-ako vmware-system-ako-ako-controller-manager-58fbd65b89-62j4j  # look at the log
+k logs -n vmware-system-ako vmware-system-ako-ako-controller-manager-58fbd65b89-62j4j  -f  # look at running log
+ 
+ ```
 
 
