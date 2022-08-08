@@ -231,5 +231,7 @@ Cert for WCP enablement
 
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/avi35.png)
 
+## WCP enablement with zones
+
 
 
