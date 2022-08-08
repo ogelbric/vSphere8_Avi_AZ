@@ -61,8 +61,12 @@ Result:
 
 
 
-Save ARCAS json installer file to VM
+### Save ARCAS json installer file to the Arcas VM
 ```
  /opt/vmware/arcas/src/vsphere-dvs-tkgs-wcp.json.
  ```
  
+ ### ssh to arcas vm as root (ssh root@192.168.1.39) and run the AVI install
+ ```
+ arcas --env vsphere --file  /opt/vmware/arcas/src/vsphere-dvs-tkgs-wcp.json --avi_configuration
+ ```
