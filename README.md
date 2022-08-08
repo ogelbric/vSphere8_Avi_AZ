@@ -52,12 +52,8 @@ Result:
 ### Make sure content library is creatged with AVI image
 
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/cl1.png)
-![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/cl2.png)
-![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/cl3.png)
-![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/cl4.png)
-![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/cl5.png)
-![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/cl6.png)
 
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/cl2.png)
 
 ### Service Installer (Arcas) deployment
 
@@ -70,6 +66,19 @@ Result:
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/arcas4.png)
 
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/arcas5.png)
+
+### Start ova and go to IP of Arcas and port 8888
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/ar1.png)
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/ar2.png)
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/ar3.png)
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/ar4.png)
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/ar5.png)
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/ar6.png)
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/ar7.png)
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/ar8.png)
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/ar9.png)
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/ar10.png)
 
 
 
