@@ -227,4 +227,9 @@ Note default cloud is green by default - not connected to anything and AKO pod i
 
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/avi34.png)
 
+Cert for WCP enablement
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/avi35.png)
+
+
 
