@@ -333,4 +333,9 @@ k logs -n vmware-system-ako vmware-system-ako-ako-controller-manager-58fbd65b89-
  
  ```
 
+## AVI Final fix - added the workload to front route to the global VRF context
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/GlobalVRFContext1.png)
+
+
 
