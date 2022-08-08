@@ -70,17 +70,36 @@ Result:
 ### Start ova and go to IP of Arcas and port 8888
 
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/ar1.png)
+
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/ar2.png)
+
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/ar3.png)
+
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/ar4.png)
+
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/ar5.png)
+
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/ar6.png)
+
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/ar7.png)
+
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/ar8.png)
+
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/ar9.png)
+
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/ar10.png)
 
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/ar11.png)
 
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/ar12.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/ar13.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/ar14.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/ar15.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/ar16.png)
 
 
 
