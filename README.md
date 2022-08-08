@@ -159,6 +159,12 @@ One way to tell that Arcas was unable to talk to the API is that the admin passw
 
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/avi4.png)
 
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/avi5.png)
+
+Note default cloud is green by default - not connected to anything and AKO pod in Tanzu will be looking for default-cloud
+
+### AVI Setup
+
 
 
 
