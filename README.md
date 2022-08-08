@@ -149,7 +149,7 @@ Example of Arcas 1.3 json file: https://github.com/ogelbric/vSphere8_Avi_AZ/blob
 
 One way to tell that Arcas was unable to talk to the API is that the admin password is not set on the AVI appliance. 
 
-### Set AVI password
+### AVI password
 
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/avi1.png)
 
@@ -163,8 +163,26 @@ One way to tell that Arcas was unable to talk to the API is that the admin passw
 
 Note default cloud is green by default - not connected to anything and AKO pod in Tanzu will be looking for default-cloud
 
-### AVI Setup
+### AVI Setup Change the default cloud type
 
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/avi6.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/avi7.png)
+
+### AVI default-cloud setup 
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/avi8.png)
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/avi9.png)
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/avi10.png)
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/avi11.png)
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/avi12.png)
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/avi13.png)
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/avi14.png)
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/avi15.png)
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/avi16.png)
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/avi17.png)
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/avi18.png)
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/avi19.png)
 
 
 
