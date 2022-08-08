@@ -233,5 +233,51 @@ Cert for WCP enablement
 
 ## WCP enablement with zones
 
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/wcp1.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/wcp2.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/wcp3.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/wcp4.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/wcp5.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/wcp6.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/wcp7.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/wcp8.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/wcp9.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/wcp10.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/wcp11.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/wcp12.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/wcp13.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/wcp14.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/wcp15.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/wcp16.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/wcp17.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/wcp18.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/wcp19.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/wcp20.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/wcp21.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/wcp22.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/wcp23.png)
+
 
 
