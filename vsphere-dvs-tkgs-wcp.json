@@ -1,0 +1,100 @@
+{
+    "envSpec": {
+        "envType": "tkgs-wcp",
+        "vcenterDetails": {
+            "vcenterAddress": "192.168.1.50",
+            "vcenterSsoUser": "administrator@vsphere.local",
+            "vcenterSsoPasswordBase64": "Vk13YXJlMSE=",
+            "vcenterDatacenter": "avi-Datacenter",
+            "vcenterCluster": "avi-Cluster1",
+            "vcenterDatastore": "vsanDatastore",
+            "contentLibraryName": "avi",
+            "aviOvaName": "controller-22.1.1-9052"
+        },
+        "marketplaceSpec": {
+            "refreshToken": ""
+        },
+        "saasEndpoints": {
+            "tmcDetails": {
+                "tmcAvailability": "false",
+                "tmcRefreshToken": "",
+                "tmcInstanceURL": "",
+                "tmcSupervisorClusterName": "",
+                "tmcSupervisorClusterGroupName": ""
+            }
+        },
+        "infraComponents": {
+            "dnsServersIp": "10.197.96.7",
+            "searchDomains": "lab.local",
+            "ntpServers": "10.128.152.81"
+        }
+    },
+    "tkgsComponentSpec": {
+        "controlPlaneSize": "SMALL",
+        "aviMgmtNetwork": {
+            "aviMgmtNetworkName": "DVPG-Management Network",
+            "aviMgmtNetworkGatewayCidr": "192.168.1.1/24",
+            "aviMgmtServiceIpStartRange": "192.168.1.60",
+            "aviMgmtServiceIpEndRange": "192.168.1.70"
+        },
+        "aviComponents": {
+            "aviPasswordBase64": "Vk13YXJlMSE=",
+            "aviBackupPassphraseBase64": "Vk13YXJlMSE=",
+            "enableAviHa": "false",
+            "aviController01Ip": "192.168.1.40",
+            "aviController01Fqdn": "avi.lab.local",
+            "aviController02Ip": "",
+            "aviController02Fqdn": "",
+            "aviController03Ip": "",
+            "aviController03Fqdn": "",
+            "aviClusterIp": "",
+            "aviClusterFqdn": "",
+            "aviSize": "small",
+            "aviCertPath": "",
+            "aviCertKeyPath": ""
+        },
+        "tkgsVipNetwork": {
+            "tkgsVipNetworkName": "DVPG-Frontend Network",
+            "tkgsVipNetworkGatewayCidr": "192.168.4.1/24",
+            "tkgsVipIpStartRange": "192.168.4.70",
+            "tkgsVipIpEndRange": "192.168.4.100"
+        },
+        "tkgsMgmtNetworkSpec": {
+            "tkgsMgmtNetworkName": "DVPG-Management Network",
+            "tkgsMgmtNetworkGatewayCidr": "192.168.1.1/24",
+            "tkgsMgmtNetworkStartingIp": "192.168.1.80",
+            "tkgsMgmtNetworkDnsServers": "10.197.96.7",
+            "tkgsMgmtNetworkSearchDomains": "lab.local",
+            "tkgsMgmtNetworkNtpServers": "10.128.152.81"
+        },
+        "tkgsStoragePolicySpec": {
+            "masterStoragePolicy": "pacific-gold-storage-policy",
+            "ephemeralStoragePolicy": "pacific-gold-storage-policy",
+            "imageStoragePolicy": "pacific-gold-storage-policy"
+        },
+        "tkgsPrimaryWorkloadNetwork": {
+            "tkgsPrimaryWorkloadPortgroupName": "DVPG-Workload Network",
+            "tkgsPrimaryWorkloadNetworkName": "workseg1",
+            "tkgsPrimaryWorkloadNetworkGatewayCidr": "192.168.5.1/24",
+            "tkgsPrimaryWorkloadNetworkStartRange": "192.168.5.120",
+            "tkgsPrimaryWorkloadNetworkEndRange": "192.168.5.140",
+            "tkgsWorkloadDnsServers": "10.197.96.7",
+            "tkgsWorkloadNtpServers": "10.128.152.81",
+            "tkgsWorkloadServiceCidr": "10.96.0.0/22"
+        },
+        "tkgServiceConfig": {
+            "proxySpec": {
+                "enableProxy": "false",
+                "httpProxy": "",
+                "httpsProxy": "",
+                "noProxy": "",
+                "proxyCert": ""
+            },
+            "defaultCNI": "antrea",
+            "additionalTrustedCAs": {
+                "paths": [],
+                "endpointUrls": []
+            }
+        }
+    }
+}
