@@ -585,6 +585,14 @@ v1.22.9---vmware.1-tkg.1.cc71bc8    v1.22.9+vmware.1-tkg.1.cc71bc8    True    Tr
 
 Lets create a workload cluster
 
+```
+k apply -f ./tkrcluster.yaml
+tanzukubernetescluster.run.tanzu.vmware.com/tkr-zoned-cluster01 created
+[root@centosrouter 8u0]# k get tkc
+NAME                  CONTROL PLANE   WORKER   TKR NAME                           AGE   READY   TKR COMPATIBLE   UPDATES AVAILABLE
+tkr-zoned-cluster01   3               3        v1.22.9---vmware.1-tkg.1.cc71bc8   16s   False   True             
+```
+
 
 
 
