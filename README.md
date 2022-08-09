@@ -509,5 +509,8 @@ Using Arcas to set up namespace (read in previous arcas json file and add a few 
 
 ### 
 ```
- /opt/vmware/arcas/src/vsphere-dvs-tkgs-namespace.json
- ```
+ arcas --env vsphere --file  /opt/vmware/arcas/src/vsphere-dvs-tkgs-namespace.json --create_supervisor_namespace
+```
+Unfortunately this results in an error and Arcas 1.3 is not ready for vCenter 8.0 so I have to set it up manually
+
+
