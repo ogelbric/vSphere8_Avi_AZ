@@ -490,4 +490,24 @@ vmware-system-vmop                          vmware-system-vmop-hostvalidator-6d8
 
 ## WCP / Arcas Namespace creation
 
+Using Arcas to set up namespace (read in previous arcas json file and add a few things to generate NS file)
 
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/arcasn1.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/arcasn2.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/arcasn3.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/arcasn4.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/arcasn5.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/arcasn6.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/arcasn7.png)
+
+
+### 
+```
+ /opt/vmware/arcas/src/vsphere-dvs-tkgs-namespace.json
+ ```
