@@ -337,6 +337,9 @@ k logs -n vmware-system-ako vmware-system-ako-ako-controller-manager-58fbd65b89-
 
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/GlobalVRFContext1.png)
 
+I should would have added the route to the front end network but global is attached by default
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/Fix2.png)
 
 ```
  /usr/local/bin/kubectl-vsphere login --vsphere-username administrator@vsphere.local --server=https://192.168.4.71 --insecure-skip-tls-verify
