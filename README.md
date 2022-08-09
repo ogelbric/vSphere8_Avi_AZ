@@ -475,4 +475,16 @@ vmware-system-vmop                          vmware-system-vmop-hostvalidator-6d8
 [root@centosrouter ~]# 
 ```
 
+### Things are green (left it overnight for the yellow/orange circles to turn green)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/Green1.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/Green2.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/Green3.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/Green4.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/Green5.png)
+
 
