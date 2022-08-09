@@ -518,6 +518,11 @@ Turns out it is partially set up and the only item missing are the permissions.
 
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/ns2.png)
 
+Lets check a few things out and log onto the API end point
+
+```
+
+```
 
 
 
