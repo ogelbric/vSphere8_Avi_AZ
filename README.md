@@ -492,19 +492,19 @@ vmware-system-vmop                          vmware-system-vmop-hostvalidator-6d8
 
 Using Arcas to set up namespace (read in previous arcas json file and add a few things to generate NS file)
 
-![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/arcasn1.png)
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/arcasns1.png)
 
-![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/arcasn2.png)
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/arcasns2.png)
 
-![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/arcasn3.png)
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/arcasns3.png)
 
-![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/arcasn4.png)
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/arcasns4.png)
 
-![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/arcasn5.png)
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/arcasns5.png)
 
-![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/arcasn6.png)
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/arcasns6.png)
 
-![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/arcasn7.png)
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/arcasns7.png)
 
 
 ### 
