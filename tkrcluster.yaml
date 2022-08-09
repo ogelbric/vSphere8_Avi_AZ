@@ -1,0 +1,48 @@
+apiVersion: run.tanzu.vmware.com/v1alpha2
+kind: TanzuKubernetesCluster
+metadata:
+  name: tkr-zoned-cluster01
+  namespace: namespace1000
+spec:
+  settings:
+    network:
+      pods:
+        cidrBlocks:
+        - 192.168.128.0/18
+      serviceDomain: managedcluster.local
+      services:
+        cidrBlocks:
+        - 192.168.192.0/18
+  topology:
+    controlPlane:
+      replicas: 3
+      vmClass: best-effort-xsmall
+      storageClass: pacific-gold-storage-policy
+      tkr:
+        reference:
+          name: v1.22.9---vmware.1-tkg.1.cc71bc8
+    nodePools:
+    - name: workerpool-1
+      failureDomain: zone1
+      replicas: 1
+      vmClass: best-effort-xsmall
+      storageClass: pacific-gold-storage-policy
+      tkr:
+        reference:
+          name: v1.22.9---vmware.1-tkg.1.cc71bc8
+    - name: workerpool-2
+      failureDomain: zone2
+      replicas: 1
+      vmClass: best-effort-xsmall
+      storageClass: pacific-gold-storage-policy
+      tkr:
+        reference:
+          name: v1.22.9---vmware.1-tkg.1.cc71bc8
+    - name: workerpool-3
+      failureDomain: zone3
+      replicas: 1
+      vmClass: best-effort-xsmall
+      storageClass: pacific-gold-storage-policy
+      tkr:
+        reference:
+          name: v1.22.9---vmware.1-tkg.1.cc71bc8
