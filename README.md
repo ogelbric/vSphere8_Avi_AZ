@@ -488,3 +488,6 @@ vmware-system-vmop                          vmware-system-vmop-hostvalidator-6d8
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/Green5.png)
 
 
+## WCP / Arcas Namespace creation
+
+
