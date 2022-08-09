@@ -583,7 +583,9 @@ v1.21.6---vmware.1-tkg.1.b3d708a    v1.21.6+vmware.1-tkg.1.b3d708a    True    Tr
 v1.22.9---vmware.1-tkg.1.cc71bc8    v1.22.9+vmware.1-tkg.1.cc71bc8    True    True         19h
 ```
 
-Lets create a workload cluster
+### Lets create a workload cluster
+
+https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/tkrcluster.yaml
 
 ```
 k apply -f ./tkrcluster.yaml
