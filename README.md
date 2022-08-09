@@ -512,5 +512,12 @@ Using Arcas to set up namespace (read in previous arcas json file and add a few 
  arcas --env vsphere --file  /opt/vmware/arcas/src/vsphere-dvs-tkgs-namespace.json --create_supervisor_namespace
 ```
 Unfortunately this results in an error and Arcas 1.3 is not ready for vCenter 8.0 so I have to set it up manually
+Turns out it is partially set up and the only item missing are the permissions. 
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/ns1.png)
+
+![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/ns2.png)
+
+
 
 
