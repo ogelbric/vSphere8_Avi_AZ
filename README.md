@@ -519,10 +519,73 @@ Turns out it is partially set up and the only item missing are the permissions.
 ![Version](https://github.com/ogelbric/vSphere8_Avi_AZ/blob/main/ns2.png)
 
 Lets check a few things out and log onto the API end point
+Namespace namespace1000 is in my context and the storage class is there
 
 ```
+ /usr/local/bin/kubectl-vsphere login --vsphere-username administrator@vsphere.local --server=https://192.168.4.71 --insecure-skip-tls-verify
 
+
+Password: 
+Logged in successfully.
+
+You have access to the following contexts:
+   192.168.4.71
+   namespace1000
+
+If the context you wish to use is not in this list, you may need to try
+logging in again later, or contact your cluster administrator.
+
+To change context, use `kubectl config use-context <workload name>`
+[root@centosrouter ~]# k1
+Switched to context "namespace1000".
+[root@centosrouter ~]# k get sc
+NAME                          PROVISIONER              RECLAIMPOLICY   VOLUMEBINDINGMODE   ALLOWVOLUMEEXPANSION   AGE
+pacific-gold-storage-policy   csi.vsphere.vmware.com   Delete          Immediate           true                   14m
+[root@centosrouter ~]# k get nodes
+NAME                               STATUS   ROLES                  AGE   VERSION
+423504fa3cc22672ae5940b795a73cc1   Ready    control-plane,master   19h   v1.23.5+vmware.wcp.2
+423529efa0c292d73ba45a30b7f9248b   Ready    control-plane,master   19h   v1.23.5+vmware.wcp.2
+423549790cec910c94b298df760c3e23   Ready    control-plane,master   19h   v1.23.5+vmware.wcp.2
 ```
+
+And the content library items are there 
+```
+k get tkr
+NAME                                VERSION                           READY   COMPATIBLE   CREATED
+v1.16.12---vmware.1-tkg.1.da7afe7   v1.16.12+vmware.1-tkg.1.da7afe7   False   False        19h
+v1.16.14---vmware.1-tkg.1.ada4837   v1.16.14+vmware.1-tkg.1.ada4837   False   False        19h
+v1.16.8---vmware.1-tkg.3.60d2ffd    v1.16.8+vmware.1-tkg.3.60d2ffd    False   False        19h
+v1.17.11---vmware.1-tkg.1.15f1e18   v1.17.11+vmware.1-tkg.1.15f1e18   False   False        19h
+v1.17.11---vmware.1-tkg.2.ad3d374   v1.17.11+vmware.1-tkg.2.ad3d374   False   False        19h
+v1.17.13---vmware.1-tkg.2.2c133ed   v1.17.13+vmware.1-tkg.2.2c133ed   False   False        19h
+v1.17.17---vmware.1-tkg.1.d44d45a   v1.17.17+vmware.1-tkg.1.d44d45a   False   False        19h
+v1.17.7---vmware.1-tkg.1.154236c    v1.17.7+vmware.1-tkg.1.154236c    False   False        19h
+v1.17.8---vmware.1-tkg.1.5417466    v1.17.8+vmware.1-tkg.1.5417466    False   False        19h
+v1.18.10---vmware.1-tkg.1.3a6cd48   v1.18.10+vmware.1-tkg.1.3a6cd48   False   False        19h
+v1.18.15---vmware.1-tkg.1.600e412   v1.18.15+vmware.1-tkg.1.600e412   False   False        19h
+v1.18.15---vmware.1-tkg.2.ebf6117   v1.18.15+vmware.1-tkg.2.ebf6117   False   False        19h
+v1.18.19---vmware.1-tkg.1.17af790   v1.18.19+vmware.1-tkg.1.17af790   False   False        19h
+v1.18.5---vmware.1-tkg.1.c40d30d    v1.18.5+vmware.1-tkg.1.c40d30d    False   False        19h
+v1.19.11---vmware.1-tkg.1.9d9b236   v1.19.11+vmware.1-tkg.1.9d9b236   False   False        19h
+v1.19.14---vmware.1-tkg.1.8753786   v1.19.14+vmware.1-tkg.1.8753786   False   False        19h
+v1.19.16---vmware.1-tkg.1.df910e2   v1.19.16+vmware.1-tkg.1.df910e2   False   False        19h
+v1.19.7---vmware.1-tkg.1.fc82c41    v1.19.7+vmware.1-tkg.1.fc82c41    False   False        19h
+v1.19.7---vmware.1-tkg.2.f52f85a    v1.19.7+vmware.1-tkg.2.f52f85a    False   False        19h
+v1.20.12---vmware.1-tkg.1.b9a42f3   v1.20.12+vmware.1-tkg.1.b9a42f3   True    True         19h
+v1.20.2---vmware.1-tkg.1.1d4f79a    v1.20.2+vmware.1-tkg.1.1d4f79a    True    True         19h
+v1.20.2---vmware.1-tkg.2.3e10706    v1.20.2+vmware.1-tkg.2.3e10706    True    True         19h
+v1.20.7---vmware.1-tkg.1.7fb9067    v1.20.7+vmware.1-tkg.1.7fb9067    True    True         19h
+v1.20.8---vmware.1-tkg.2            v1.20.8+vmware.1-tkg.2            True    True         19h
+v1.20.9---vmware.1-tkg.1.a4cee5b    v1.20.9+vmware.1-tkg.1.a4cee5b    True    True         19h
+v1.21.2---vmware.1-tkg.1.ee25d55    v1.21.2+vmware.1-tkg.1.ee25d55    True    True         19h
+v1.21.6---vmware.1-tkg.1            v1.21.6+vmware.1-tkg.1            True    True         19h
+v1.21.6---vmware.1-tkg.1.b3d708a    v1.21.6+vmware.1-tkg.1.b3d708a    True    True         19h
+v1.22.9---vmware.1-tkg.1.cc71bc8    v1.22.9+vmware.1-tkg.1.cc71bc8    True    True         19h
+```
+
+Lets create a workload cluster
+
+
 
 
 
